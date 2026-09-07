@@ -1,5 +1,9 @@
+.. imported from: https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end
+
+.. _ad9081 2to24ghz-mxfe-rf-front-end:
+
 2-24GHz RF Rx & Tx Front End for MxFE
-=====================================
+===============================================================================
 
 The 2-24GHz RF Front End is a complete RF receiver and transmitter front end
 designed to meet the specifications of typical wideband instrumentation and
@@ -11,10 +15,12 @@ The full system block diagram is shown below, consisting of four functional
 blocks- the receiver front end, transmitter front end, digitizer, and LO
 generation.
 
-|image1|
+.. image:: ../images/ad9081_2to24_frontend_block_diagram.png
+   :align: center
+   :width: 1000
 
 Specifications
---------------
+-------------------------------------------------------------------------------
 
 The receiver and transmitter specifications, shown in the table below, are
 fairly typical of many wideband instrumentation and EW systems in operation
@@ -28,48 +34,27 @@ or functionality targets. Everything from the digitizer sample rates to the
 individual RF components and signal chain filtering can be adjusted to
 facilitate changes in frequency planning or system-level functionality.
 
-|image2|
-
-Support
--------
-
-For support on this reference design, please contact us through our technical support portal at the follow link: :adi:`en/support/technical-support.html`
+.. image:: ../images/ad9081_full_spec_table_r1p01.png
+   :align: center
+   :width: 800
 
 Resources
-=========
+-------------------------------------------------------------------------------
 
 -  :ez:`2 to 24GHz Wideband Transceiver Reference Design Webinar <webinar/c/e/211>`
--  `Digitizer Overview <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/digitizer-overview>`_
 
--  `Receiver Front End Overview & Theory Of Operation <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/rx-overview>`_
+.. toctree::
 
-   -  `Rx Input Stage & Modes Of Operation <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/rx-overview>`_
-   -  `Downconversion Stage & Frequency Plan <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/rx-overview>`_
-   -  `Spurious Analysis <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/rx-overview>`_
-   -  `IF Stage <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/rx-overview>`_
-   -  `Timing & Control <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/rx-overview>`_
-   -  `Rx Performance Simulations <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/rx-overview>`_
-
--  `Transmitter Front End Overview & Theory Of Operation <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/tx-overview>`_
-
-   -  `IF Input Stage <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/tx-overview>`_
-   -  `Frequency Conversion Stage & Frequency Plan <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/tx-overview>`_
-   -  `RF Output Stage <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/tx-overview>`_
-   -  `Timing & Control <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/tx-overview>`_
-   -  `Tx Performance Simulations <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/tx-overview>`_
-
--  `LO Generation Options <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/lo-generation>`_
-
-   -  `Fixed LO Source <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/lo-generation>`_
-   -  `Tunable LO Source <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/lo-generation>`_
-
--  `Size Estimate <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/layout-mockup>`_
--  `Power Architecture <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/power-architecture>`_
--  `Hardware <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/hw>`_
--  `Software Resources <https://wiki.analog.com/resources/eval/developer-kits/2to24ghz-mxfe-rf-front-end/sw>`_
+   Digitizer overview <digitizer-overview>
+   <rx-overview>
+   <tx-overview>
+   <lo-generation>
+   <layout-mockup>
+   <power-architecture>
+   <sw>
 
 Bill of Materials
-=================
+-------------------------------------------------------------------------------
 
 The full Bill of Materials (BOM) is provided for planning purposes. The list
 below does not include passive devices typically used for filtering power
@@ -225,7 +210,3 @@ purposes only.
    -  Company Name
    -  Company Location
    -  Application/Use Case
-   
-
-.. |image1| image:: https://wiki.analog.com/_media/resources/eval/developer-kits/2to24blockdiagram.png
-.. |image2| image:: https://wiki.analog.com/_media/resources/eval/developer-kits/full_spec_table_r1p01.png

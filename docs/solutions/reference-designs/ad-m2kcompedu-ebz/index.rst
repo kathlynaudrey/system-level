@@ -76,7 +76,7 @@ Applications
 System Architecture
 -------------------
 
-.. figure:: images/Block-Diagram-Converted.jpg
+.. figure:: images/Block-Diagram-Converted.png
   :align: center
   :width: 800px
 
@@ -116,14 +116,14 @@ Software
 
 .. admonition:: Download
 
-   - Arduino firmware / Calibration code - Link to follow
+   - `Arduino firmware / Calibration code <https://github.com/analogdevicesinc/ad-m2kcompedu-ebz-firmware>`_
 
 Design and Integration Files
 ----------------------------
   
 .. admonition:: Download
 
-    :adi:`AD-M2KCOMPEDU-EBZ Design Support Package <media/en/reference-design-documentation/design-integration-files/ad-m2kcompedu-ebz-designsupport.zip>`
+    :adi:`AD-M2KCOMPEDU-EBZ Design Support Package <media/en/evaluation-documentation/evaluation-design-files/ad-m2kcompedu-ebz-designsupport.zip>`
 
     - Schematics 
     - Bill of Materials 

@@ -1066,12 +1066,14 @@ SDA and SCL I2C bus. Note that the I2C address is 0x3C.
 
 .. figure:: images/main_oled_display_midas.png
     :align: center
+    :width: 800px
     
     Main OLED Display – MIDAS
 
 
 .. figure:: images/main_oled_display_schematic.png
     :align: center
+    :width: 800px
     
     Main OLED Display – Schematic Connections
  

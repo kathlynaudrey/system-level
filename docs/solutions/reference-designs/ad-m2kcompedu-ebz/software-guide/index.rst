@@ -15,9 +15,10 @@ calibration system.
 Arduino Firmware for AD-M2KCOMPEDU-EBZ
 --------------------------------------
 
-The Arduino firmware for :adi:`AD-M2KCOMPEDU-EBZ` is an educational add-on board
-for the :adi:`ADALM2000`. It has a signal generator (sine, square, triangle, DC) with
-adjustable amplitude, frequency, DC offset, and a PWM generator with
+The `Arduino firmware <https://github.com/analogdevicesinc/ad-m2kcompedu-ebz-firmware>`_
+for :adi:`AD-M2KCOMPEDU-EBZ` is an educational add-on board for the
+:adi:`ADALM2000`. It has a signal generator (sine, square, triangle, DC)
+with adjustable amplitude, frequency, DC offset, and a PWM generator with
 adjustable frequency and duty cycle.
 
 .. image:: images/board.jpg
@@ -28,7 +29,7 @@ Required Software
 
 .. admonition:: Download
 
-   Arduino firmware / Calibration code - Link to follow
+   `Arduino firmware / Calibration code <https://github.com/analogdevicesinc/ad-m2kcompedu-ebz-firmware>`_
 
 .. _Building and Flashing the board:
 
